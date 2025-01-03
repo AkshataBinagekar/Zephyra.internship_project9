@@ -361,8 +361,87 @@ justify-content: space-around;
     }
   }
   
+@media (max-width: 375px) {
+    .logo img {
+      height: 120px;
+      width: 120px;
+      margin-left: 30%;
+    }
+  
+    .sale {
+      margin-top: -50px;
+      height: 25px;
+    }
+    .sale p {
+      font-size: 10px;
+      padding: 5px;
+    }
+  
+    .container p {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  
+    .card_container,
+    .card_container1 {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+  
+    .card1, .card2, .card3, .card4,
+    .card5, .card6, .card7, .card8 {
+      width: 90%;
+      height: auto;
+      margin-bottom: 20px;
+
+    }
+    .card5, .card6, .card7, .card8 {
+       margin-bottom: 40%;
+    }
+  
+    .card1 img, .card2 img, .card3 img, .card4 img,
+    .card5 img, .card6 img, .card7 img, .card8 img {
+      width: 100px;
+      height: 160px;
+      margin-left: 35%;
+    }
+  
+    .card1 p, .card2 p, .card3 p, .card4 p,
+    .card5 p, .card6 p, .card7 p, .card8 p {
+      font-size: 10px;
+    }
+  
+    .counter-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .box {
+      flex-direction: column;
+  
+    }
+  
+    .freeze, .share, .enjoy {
+      margin-left: 22%;
+      width: 150px;
+      height: 150px;
+      margin-bottom: 20px;
+    }
+  
+    .text {
+     
+      margin-left: 1%;
+      font-size: 14px;
+    }
+  
+    h1 {
+      font-size: 18px;
+    }
+  }
+  
   /* For 768px (tablets) */
-  @media (min-width: 321px) and (max-width: 768px) {
+  @media  (max-width: 768px) {
     .logo img {
       height: 160px;
       width: 160px;
@@ -433,7 +512,7 @@ justify-content: space-around;
   }
   
   /* For 900px (larger tablets/small desktops) */
-  @media (min-width: 769px) and (max-width: 900px) {
+  @media (max-width: 900px) {
     .logo img {
       height: 180px;
       width: 180px;
@@ -454,19 +533,25 @@ justify-content: space-around;
   
     .card_container,
     .card_container1 {
+       flex-direction: column;
       justify-content: space-around;
     }
   
     .card1, .card2, .card3, .card4,
     .card5, .card6, .card7, .card8 {
-      width: 30%;
+ margin-left: 20%;
+      width: 60%;
       height: auto;
+     
+    }
+    .card5, .card6, .card7, .card8{
+        margin-bottom: 40px;
     }
   
     .card1 img, .card2 img, .card3 img, .card4 img,
     .card5 img, .card6 img, .card7 img, .card8 img {
       width: 120px;
-      height: 120px;
+      height: 160px;
       margin-left: 25%;
     }
   
@@ -480,16 +565,18 @@ justify-content: space-around;
     }
   
     .box {
+        flex-direction: column;
       justify-content: space-around;
     }
   
     .freeze, .share, .enjoy {
+       margin-left: 25%;
       width: 200px;
       height: 200px;
     }
   
     .text {
-      margin-left: 25%;
+      margin-left: 3%;
       font-size: 16px;
     }
   
