@@ -1,0 +1,500 @@
+
+.logo img{
+    height: 200px;
+    width: 200px;
+    margin-left: 40%;
+}
+.sale{
+  margin-top: -80px;
+    background-color: #edf183;
+    height: 30px;
+}
+.sale p{
+padding: 7px;
+    text-align: center;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container p{
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.card_container{
+    margin-top: 50px;
+display: flex;
+justify-content: space-around;
+
+}
+.card1{
+ border: 2px solid #ff7878;
+    background-color: #ffdad4;
+    width: 230px;
+    height: 320px;
+}
+.card1 img{
+    width: 120px;
+    height: 110px;
+ margin-left: 40px;
+ margin-top: 20px;
+}
+.card1 p{
+    text-align: center;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+.card2{
+ border: 2px solid #d76fd7;
+    background-color: #f5daf5;
+    width: 230px;
+    height: 320px;
+}
+.card2 img{
+    width: 120px;
+    height: 110px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.card2 p{
+    text-align: center;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+.card3{
+ border: 2px solid #bab548;
+    background-color: #fff4ca;
+    width: 230px;
+    height: 320px;
+    
+}
+.card3 img{
+    width: 120px;
+    height: 110px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.card3 p{
+    text-align: center;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+.card4{
+ border: 2px solid #babab0;
+    background-color: #e9e9e2;
+    width: 230px;
+    height: 320px;
+}
+.card4 img{
+    width: 120px;
+    height: 110px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.card4 p{
+
+    text-align: center;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+.counter-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+.counter-button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .counter-button:hover {
+    background-color: #ddd;
+  }
+  
+  .counter-input {
+    text-align: center;
+    width: 50px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .fa-solid{
+  
+    font-size: 12px;
+  }
+  .rating{
+    margin-left: 10px;
+  }
+span{
+
+    margin-left: 10px;
+}
+h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.text{
+    
+  margin-left: 35%;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.freeze{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  
+}
+.share{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+ 
+}
+.enjoy{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+h4{
+    text-align: center;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+
+}
+
+
+.card_container1{
+    margin-top: 90px;
+display: flex;
+justify-content: space-around;
+
+}
+.card5{
+    border: 2px solid #f1cf49;
+    background-color: #fffec3;
+   
+    width: 230px;
+    height: 420px;
+}
+.card5 img{
+    width: 120px;
+    height: 210px;
+ margin-left: 40px;
+ margin-top: 20px;
+}
+.card5 p{
+    text-align: center;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+.card6{
+ border: 2px solid #cd9a56;
+    background-color: #ffebcc;
+    width: 230px;
+    height: 420px;
+}
+.card6 img{
+    width: 120px;
+    height: 230px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.card6 p{
+    text-align: center;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+.card7{
+ border: 2px solid #ff00cf;
+    background-color: #f9d7e5;
+    width: 230px;
+    height: 420px;
+    
+}
+.card7 img{
+    width: 120px;
+    height: 230px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.card7 p{
+    text-align: center;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+.card8{
+ border: 2px solid #00ffff;
+    background-color: #d0fcff;
+    width: 230px;
+    height: 420px;
+}
+.card8 img{
+    width: 120px;
+    height: 210px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.card8 p{
+
+    text-align: center;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+/* For 320px (small phones) */
+@media (max-width: 320px) {
+    .logo img {
+      height: 120px;
+      width: 120px;
+      margin-left: 30%;
+    }
+  
+    .sale {
+      margin-top: -50px;
+      height: 25px;
+    }
+    .sale p {
+      font-size: 10px;
+      padding: 5px;
+    }
+  
+    .container p {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  
+    .card_container,
+    .card_container1 {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+  
+    .card1, .card2, .card3, .card4,
+    .card5, .card6, .card7, .card8 {
+      width: 90%;
+      height: auto;
+      margin-bottom: 20px;
+
+    }
+    .card5, .card6, .card7, .card8 {
+       margin-bottom: 40%;
+    }
+  
+    .card1 img, .card2 img, .card3 img, .card4 img,
+    .card5 img, .card6 img, .card7 img, .card8 img {
+      width: 100px;
+      height: 160px;
+      margin-left: 35%;
+    }
+  
+    .card1 p, .card2 p, .card3 p, .card4 p,
+    .card5 p, .card6 p, .card7 p, .card8 p {
+      font-size: 10px;
+    }
+  
+    .counter-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .box {
+      flex-direction: column;
+  
+    }
+  
+    .freeze, .share, .enjoy {
+      margin-left: 22%;
+      width: 150px;
+      height: 150px;
+      margin-bottom: 20px;
+    }
+  
+    .text {
+     
+      margin-left: 1%;
+      font-size: 14px;
+    }
+  
+    h1 {
+      font-size: 18px;
+    }
+  }
+  
+  /* For 768px (tablets) */
+  @media (min-width: 321px) and (max-width: 768px) {
+    .logo img {
+      height: 160px;
+      width: 160px;
+      margin-left: 35%;
+    }
+  
+    .sale {
+      margin-top: -60px;
+      height: 30px;
+    }
+    .sale p {
+      font-size: 12px;
+    }
+  
+    .container p {
+      font-size: 16px;
+    }
+  
+    .card_container,
+    .card_container1 {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+  
+    .card1, .card2, .card3, .card4,
+    .card5, .card6, .card7, .card8 {
+      width: 45%;
+      height: auto;
+      margin-bottom: 20px;
+   
+    }
+  
+    .card1 img, .card2 img, .card3 img, .card4 img,
+    .card5 img, .card6 img, .card7 img, .card8 img {
+      width: 110px;
+      height: 110px;
+      margin-left: 30%;
+    }
+  
+    .card1 p, .card2 p, .card3 p, .card4 p,
+    .card5 p, .card6 p, .card7 p, .card8 p {
+      font-size: 12px;
+    }
+  
+    .counter-container {
+      justify-content: center;
+      margin: 10px 0;
+    }
+  
+    .box {
+      justify-content: center;
+    }
+  
+    .freeze, .share, .enjoy {
+      width: 180px;
+      height: 180px;
+    }
+  
+    .text {
+      margin-left: 20%;
+      font-size: 15px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  }
+  
+  /* For 900px (larger tablets/small desktops) */
+  @media (min-width: 769px) and (max-width: 900px) {
+    .logo img {
+      height: 180px;
+      width: 180px;
+      margin-left: 30%;
+    }
+  
+    .sale {
+      margin-top: -70px;
+      height: 30px;
+    }
+    .sale p {
+      font-size: 14px;
+    }
+  
+    .container p {
+      font-size: 18px;
+    }
+  
+    .card_container,
+    .card_container1 {
+      justify-content: space-around;
+    }
+  
+    .card1, .card2, .card3, .card4,
+    .card5, .card6, .card7, .card8 {
+      width: 30%;
+      height: auto;
+    }
+  
+    .card1 img, .card2 img, .card3 img, .card4 img,
+    .card5 img, .card6 img, .card7 img, .card8 img {
+      width: 120px;
+      height: 120px;
+      margin-left: 25%;
+    }
+  
+    .card1 p, .card2 p, .card3 p, .card4 p,
+    .card5 p, .card6 p, .card7 p, .card8 p {
+      font-size: 14px;
+    }
+  
+    .counter-container {
+      justify-content: space-between;
+    }
+  
+    .box {
+      justify-content: space-around;
+    }
+  
+    .freeze, .share, .enjoy {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .text {
+      margin-left: 25%;
+      font-size: 16px;
+    }
+  
+    h1 {
+      font-size: 22px;
+    }
+  }
+  

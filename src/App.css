@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  background-image: url('./Images/Black\ Purple\ Metallic\ Futuristic\ Tech\ Event\ Poster.jpg');
+  height: auto;
+padding-top: 135%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}

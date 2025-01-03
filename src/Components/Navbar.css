@@ -1,0 +1,56 @@
+.nav{
+    display: flex;
+ margin-top: -130%;
+}
+.fa-bars{
+    cursor: pointer;
+    font-size: 32px;
+    margin-left: 30px;
+}
+.fa-magnifying-glass{
+    cursor: pointer;
+    font-size: 32px;
+    margin-left: 80%;
+}
+.fa-user,.fa-gift{
+    cursor: pointer;
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+@media (max-width: 320px) {
+    .nav {
+        margin-top: -130%;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .fa-bars, .fa-magnifying-glass, .fa-user, .fa-gift {
+        font-size: 24px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        margin-top: -130%;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    .fa-bars, .fa-magnifying-glass, .fa-user, .fa-gift {
+        font-size: 28px;
+        margin-left: 10px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .nav {
+        margin-top: -130%;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    .fa-bars, .fa-magnifying-glass, .fa-user, .fa-gift {
+        font-size: 30px;
+        margin-left: 15px;
+    }
+}
